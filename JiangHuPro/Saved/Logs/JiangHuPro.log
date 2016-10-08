@@ -1,10 +1,10 @@
-﻿Log file open, 10/08/16 15:49:43
+﻿Log file open, 10/08/16 15:52:47
 LogInit:Display: Running engine for game: JiangHuPro
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1279837707) SRandInit(-1279837706).
+LogInit:Display: RandInit(-705449004) SRandInit(-705449002).
 LogInit: Using version manifest at CL 0 with build ID '7cd5ca22-809b-4f2f-b42f-17b8a5d970bd'
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.078989
+LogStats: Stats thread started at 0.084533
 LogInit: Version: 4.12.4-0+UE4
 LogInit: API Version: 0
 LogInit: Net Version: 0
@@ -45,127 +45,705 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.08-07.49.43:465][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.08-07.49.43:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.08-07.49.43:520][  0]LogInit: Computer: SOCO
-[2016.10.08-07.49.43:520][  0]LogInit: User: soco2
-[2016.10.08-07.49.43:520][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.10.08-07.49.43:520][  0]LogInit: High frequency timer resolution =3.117797 MHz
-[2016.10.08-07.49.43:520][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.10.08-07.49.43:520][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.08-07.49.43:520][  0]LogMemory: Process Physical Memory: 190.03 MB used, 190.03 MB peak
-[2016.10.08-07.49.43:520][  0]LogMemory: Process Virtual Memory: 194.88 MB used, 194.88 MB peak
-[2016.10.08-07.49.43:520][  0]LogMemory: Physical Memory: 4288.43 MB used, 8142.95 MB total
-[2016.10.08-07.49.43:520][  0]LogMemory: Virtual Memory: 551.34 MB used, 134217728.00 MB total
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:Target):
+[2016.10.08-07.52.47:724][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.08-07.52.47:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.08-07.52.47:735][  0]LogInit: Computer: SOCO
+[2016.10.08-07.52.47:735][  0]LogInit: User: soco2
+[2016.10.08-07.52.47:735][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.08-07.52.47:735][  0]LogInit: High frequency timer resolution =3.117797 MHz
+[2016.10.08-07.52.47:736][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.10.08-07.52.47:736][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.08-07.52.47:736][  0]LogMemory: Process Physical Memory: 189.95 MB used, 189.95 MB peak
+[2016.10.08-07.52.47:736][  0]LogMemory: Process Virtual Memory: 194.88 MB used, 194.88 MB peak
+[2016.10.08-07.52.47:736][  0]LogMemory: Physical Memory: 3611.25 MB used, 8142.95 MB total
+[2016.10.08-07.52.47:736][  0]LogMemory: Virtual Memory: 551.34 MB used, 134217728.00 MB total
+[2016.10.08-07.52.47:817][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:Target):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1589014459) Localized String: (目标)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1589014459) Localized String: (对象)
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
+[2016.10.08-07.52.47:817][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:false):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (816077464) Localized String: (假)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (816077464) Localized String: (错误)
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
+[2016.10.08-07.52.47:817][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:K2Node, Key:true):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-942328987) Localized String: (真)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-942328987) Localized String: (正确)
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2016.10.08-07.52.47:818][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (用于引用此节点中的资源的累积时间)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (502993589) Localized String: (引用该节点中资源所用的累计时间)
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2016.10.08-07.52.47:818][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (若为真，在状态中寻找最高权重动画的“相关动画”节点将忽视 此节点)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (319969718) Localized String: (如果为真，那么将会忽略查找最高权重动画的"相关动画"节点。
 这个节点)
-[2016.10.08-07.49.43:603][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2016.10.08-07.52.47:818][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/EditorTutorials/zh-CN/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (此节点最后交会的混合权重)
 Localization Resource: (C:/Users/soco2/Desktop/UE4/UE4-Hairwroks/Engine/Content/Localization/Engine/zh-CN/Engine.locres) Source String Hash: (-1232800293) Localized String: (该节点上一次遇到的混合权重)
-[2016.10.08-07.49.43:716][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.08-07.49.43:736][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
-[2016.10.08-07.49.43:736][  0]LogD3D11RHI:       4035/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2016.10.08-07.49.43:737][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.08-07.49.43:737][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.08-07.49.43:737][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.08-07.49.43:742][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.08-07.49.43:742][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
-[2016.10.08-07.49.43:742][  0]LogWindows: EnumDisplayDevices:
-[2016.10.08-07.49.43:742][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
-[2016.10.08-07.49.43:742][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:0)
-[2016.10.08-07.49.43:743][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
-[2016.10.08-07.49.43:743][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2016.10.08-07.49.43:743][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
-[2016.10.08-07.49.43:743][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
-[2016.10.08-07.49.43:743][  0]LogD3D11RHI:      Driver Date: 7-22-2015
-[2016.10.08-07.49.43:743][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.08-07.49.43:755][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.08-07.49.43:772][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2016.10.08-07.49.43:774][  0]LogHairWorks:Display: HairWorks SDK initialized OK
-[2016.10.08-07.49.43:778][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../JiangHuGit/JiangHuPro/Intermediate/Shaders/WorkingDirectory/13544/).
-[2016.10.08-07.49.43:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/soco2/AppData/Local/Temp/UnrealShaderWorkingDir/9872094B499212E5EC30AB9034995809/'.
-[2016.10.08-07.49.43:779][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.08-07.49.44:613][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.08-07.49.44:621][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.08-07.49.44:629][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.08-07.49.44:638][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.08-07.49.44:646][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.08-07.49.44:653][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.08-07.49.44:659][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.08-07.49.44:665][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.08-07.49.44:671][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.08-07.49.44:677][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.08-07.49.44:683][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.08-07.49.44:690][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.08-07.49.44:696][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.08-07.49.44:697][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.08-07.49.44:717][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.08-07.49.44:723][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.08-07.49.44:723][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache:Display: Starting with empty Boot cache
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.08-07.49.44:808][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2016.10.08-07.49.44:821][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2016.10.08-07.49.44:821][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2016.10.08-07.49.44:821][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2016.10.08-07.49.45:049][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.08-07.49.45:058][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.08-07.49.45:398][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.08-07.49.45:398][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.08-07.49.45:398][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.08-07.49.46:564][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
-[2016.10.08-07.49.46:646][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.077964 seconds
-[2016.10.08-07.49.46:652][  0]LogUObjectArray: 28882 objects as part of root set at end of initial load.
-[2016.10.08-07.49.46:652][  0]LogUObjectAllocator: 5878272 out of 0 bytes used by permanent object pool.
-[2016.10.08-07.49.46:652][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.08-07.49.46:666][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.08-07.49.48:113][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.08-07.49.48:113][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.08-07.49.48:790][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.08-07.49.49:516][  0]SourceControl: 信息 源码控制已禁用
-[2016.10.08-07.49.49:532][  0]SourceControl: 信息 源码控制已禁用
-[2016.10.08-07.49.49:545][  0]SourceControl: 信息 源码控制已禁用
-[2016.10.08-07.49.49:559][  0]SourceControl: 信息 源码控制已禁用
-[2016.10.08-07.49.49:919][  0]LogEngine: Initializing Engine...
-[2016.10.08-07.49.49:921][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.08-07.49.49:922][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.10.08-07.49.51:824][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.10.08-07.49.51:829][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.10.08-07.49.51:843][  0]LogInit: FAudioDevice initialized.
-[2016.10.08-07.49.51:900][  0]LogDerivedDataCache: Saved boot cache 0.06s 48MB ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/Boot.ddc.
-[2016.10.08-07.49.51:906][  0]LogInit: Texture streaming: Enabled
-[2016.10.08-07.49.51:934][  0]LogInit: Transaction tracking system initialized
-[2016.10.08-07.49.51:960][  0]BlueprintLog: New page: 编辑器加载
-[2016.10.08-07.49.52:136][  0]LocalizationService: 信息 本地化服务已被禁用
-[2016.10.08-07.49.52:248][  0]LogConsoleResponse:Display: 
-[2016.10.08-07.49.52:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soco2/Desktop/UE4/JiangHuGit/JiangHuPro/Content/' took 0.01s
-[2016.10.08-07.49.52:345][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.10.08-07.49.52:345][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.08-07.49.52:474][  0]SourceControl: 信息 源码控制已禁用
-[2016.10.08-07.49.52:474][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.08-07.49.52:488][  0]LightingResults: New page: 光照构建
-[2016.10.08-07.49.52:491][  0]MapCheck: New page: 地图检测
-[2016.10.08-07.49.52:491][  0]LightingResults: New page: 光照构建
-[2016.10.08-07.49.52:863][  0]LogTexture:Display: 正在构建贴图: HQ_Lightmap0_2 (AutoDXT)
-[2016.10.08-07.49.52:864][  0]LogTexture:Display: 正在构建贴图: LQ_Lightmap_0_2 (DXT1)
-[2016.10.08-07.49.52:988][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.10.08-07.49.52:994][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.08-07.49.53:018][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.08-07.49.53:053][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时34.
+[2016.10.08-07.52.47:932][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.08-07.52.47:956][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 745' (Feature Level 11_0)
+[2016.10.08-07.52.47:956][  0]LogD3D11RHI:       4035/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.08-07.52.47:957][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.08-07.52.47:957][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.08-07.52.47:957][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.08-07.52.47:962][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.08-07.52.47:962][  0]LogD3D11RHI:     GPU DeviceId: 0x1382 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.08-07.52.47:962][  0]LogWindows: EnumDisplayDevices:
+[2016.10.08-07.52.47:962][  0]LogWindows:    0. 'NVIDIA GeForce GTX 745' (P:1 D:1)
+[2016.10.08-07.52.47:962][  0]LogWindows:    1. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2016.10.08-07.52.47:962][  0]LogWindows:    2. 'NVIDIA GeForce GTX 745' (P:0 D:0)
+[2016.10.08-07.52.47:963][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.10.08-07.52.47:963][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 745
+[2016.10.08-07.52.47:963][  0]LogD3D11RHI:   Driver Version: 353.62 (internal:10.18.13.5362, unified:353.62)
+[2016.10.08-07.52.47:963][  0]LogD3D11RHI:      Driver Date: 7-22-2015
+[2016.10.08-07.52.47:963][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.08-07.52.47:975][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.08-07.52.47:992][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.10.08-07.52.47:994][  0]LogHairWorks:Display: HairWorks SDK initialized OK
+[2016.10.08-07.52.48:000][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../JiangHuGit/JiangHuPro/Intermediate/Shaders/WorkingDirectory/18012/).
+[2016.10.08-07.52.48:000][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/soco2/AppData/Local/Temp/UnrealShaderWorkingDir/83F902844A70F7F10C815584AE47036E/'.
+[2016.10.08-07.52.48:000][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.08-07.52.48:859][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.08-07.52.48:867][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.08-07.52.48:875][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.08-07.52.48:883][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.08-07.52.48:891][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.08-07.52.48:898][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.08-07.52.48:904][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.08-07.52.48:910][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.08-07.52.48:917][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.08-07.52.48:923][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.08-07.52.48:930][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.08-07.52.48:936][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.08-07.52.48:943][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.08-07.52.48:944][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.08-07.52.48:963][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.08-07.52.48:969][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.08-07.52.48:969][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.08-07.52.49:072][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/Boot.ddc.
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/Boot.ddc
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.08-07.52.49:124][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.10.08-07.52.49:137][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.10.08-07.52.49:137][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.10.08-07.52.49:137][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.10.08-07.52.49:348][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.08-07.52.49:349][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.08-07.52.49:521][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.08-07.52.49:521][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.08-07.52.49:521][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.08-07.52.49:752][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
+[2016.10.08-07.52.49:834][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 4 prioritized culture(s) in 0.078798 seconds
+[2016.10.08-07.52.49:840][  0]LogUObjectArray: 28882 objects as part of root set at end of initial load.
+[2016.10.08-07.52.49:840][  0]LogUObjectAllocator: 5878272 out of 0 bytes used by permanent object pool.
+[2016.10.08-07.52.49:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.08-07.52.49:850][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.08-07.52.50:048][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.08-07.52.50:048][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.08-07.52.50:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.08-07.52.50:902][  0]SourceControl: 信息 源码控制已禁用
+[2016.10.08-07.52.50:916][  0]SourceControl: 信息 源码控制已禁用
+[2016.10.08-07.52.50:928][  0]SourceControl: 信息 源码控制已禁用
+[2016.10.08-07.52.50:940][  0]SourceControl: 信息 源码控制已禁用
+[2016.10.08-07.52.51:210][  0]LogEngine: Initializing Engine...
+[2016.10.08-07.52.51:212][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.08-07.52.51:213][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.08-07.52.51:356][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.08-07.52.51:361][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.52.51:374][  0]LogInit: FAudioDevice initialized.
+[2016.10.08-07.52.51:401][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB ../../../../JiangHuGit/JiangHuPro/DerivedDataCache/Boot.ddc.
+[2016.10.08-07.52.51:405][  0]LogInit: Texture streaming: Enabled
+[2016.10.08-07.52.51:431][  0]LogInit: Transaction tracking system initialized
+[2016.10.08-07.52.51:457][  0]BlueprintLog: New page: 编辑器加载
+[2016.10.08-07.52.51:541][  0]LocalizationService: 信息 本地化服务已被禁用
+[2016.10.08-07.52.51:612][  0]LogConsoleResponse:Display: 
+[2016.10.08-07.52.51:707][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.08-07.52.51:707][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.08-07.52.51:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soco2/Desktop/UE4/JiangHuGit/JiangHuPro/Content/' took 0.01s
+[2016.10.08-07.52.51:817][  0]SourceControl: 信息 源码控制已禁用
+[2016.10.08-07.52.51:817][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.08-07.52.51:817][  0]LightingResults: New page: 光照构建
+[2016.10.08-07.52.51:820][  0]MapCheck: New page: 地图检测
+[2016.10.08-07.52.51:820][  0]LightingResults: New page: 光照构建
+[2016.10.08-07.52.52:035][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.08-07.52.52:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.08-07.52.52:045][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.08-07.52.52:079][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时34.33毫秒完成。
+[2016.10.08-07.52.52:079][  0]LogFileHelpers: Loading map 'Template_Default' took 0.263
+[2016.10.08-07.52.52:203][  0]LogCollectionManager: Loaded 0 collections in 0.002130 seconds
+[2016.10.08-07.52.52:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soco2/Desktop/UE4/JiangHuGit/JiangHuPro/Saved/Collections/' took 0.01s
+[2016.10.08-07.52.52:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soco2/Desktop/UE4/JiangHuGit/JiangHuPro/Content/Developers/soco2/Collections/' took 0.01s
+[2016.10.08-07.52.52:246][  0]LogFileCache: Scanning file cache for directory 'C:/Users/soco2/Desktop/UE4/JiangHuGit/JiangHuPro/Content/Collections/' took 0.01s
+[2016.10.08-07.52.52:246][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.08-07.52.52:254][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2052 classes and 367 folders.
+[2016.10.08-07.52.52:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.08-07.52.52:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.08-07.52.52:259][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.10.08-07.52.52:264][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.08-07.52.52:302][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.10.08-07.52.52:306][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.08-07.52.52:349][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.08-07.52.52:354][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2016.10.08-07.52.52:380][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.08-07.52.52:380][  0]LogLoad: Full Startup: 5.47 seconds (BP compile: 0.03 seconds)
+[2016.10.08-07.52.52:380][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.10.08-07.52.52:397][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.10.08-07.52.52:400][  0]LogOcInput: OculusInput pre-init called
+[2016.10.08-07.52.52:418][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.10.08-07.52.52:576][  0]LogRenderer: Reallocating scene render targets to support 1064x652 (Frame:2).
+[2016.10.08-07.52.52:645][  1]LogAssetRegistry: Asset discovery search completed in 2.9136 seconds
+[2016.10.08-07.52.52:645][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.08-07.52.52:645][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2016.10.08-07.52.58:541][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Block 引用了未知操作'Block'
+[2016.10.08-07.52.58:541][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作IdleState 引用了未知操作'IdleState'
+[2016.10.08-07.52.58:541][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Jump 引用了未知操作'Jump'
+[2016.10.08-07.52.58:541][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Attack 引用了未知操作'Attack'
+[2016.10.08-07.52.58:542][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴LookUp 的位置坐标轴'LookUp' 
+[2016.10.08-07.52.58:542][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴Turn 的位置坐标轴'Turn' 
+[2016.10.08-07.52.58:542][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴MoveRight 的位置坐标轴'MoveRight' 
+[2016.10.08-07.52.58:542][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴MoveFoward 的位置坐标轴'MoveFoward' 
+[2016.10.08-07.52.58:560][423]LogBlueprint:Warning: Compiler 警告 [0011.65] Compile of CharacterBP successful, but with 8 Warning(s) [in 75 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.52.58:562][423]LogBlueprint:Warning: Compiler 警告 [0011.65] Compile of CharacterBP successful, but with 9 Warning(s) [in 1 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.52.58:562][423]LogBlueprint:Warning: Compiler 警告 [0011.65] Compile of CharacterBP successful, but with 10 Warning(s) [in 0 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Block 引用了未知操作'Block'
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作IdleState 引用了未知操作'IdleState'
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Jump 引用了未知操作'Jump'
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入操作事件对 输入动作Attack 引用了未知操作'Attack'
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴LookUp 的位置坐标轴'LookUp' 
+[2016.10.08-07.52.58:671][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴Turn 的位置坐标轴'Turn' 
+[2016.10.08-07.52.58:672][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴MoveRight 的位置坐标轴'MoveRight' 
+[2016.10.08-07.52.58:672][423]LogBlueprint:Warning: Compiler 警告 输入轴事件引用了 输入轴MoveFoward 的位置坐标轴'MoveFoward' 
+[2016.10.08-07.52.58:682][423]LogBlueprint:Warning: Compiler 警告 [0011.77] Compile of CharacterBP successful, but with 8 Warning(s) [in 17 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.52.58:682][423]LogBlueprint:Warning: Compiler 警告 [0011.77] Compile of CharacterBP successful, but with 9 Warning(s) [in 0 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.52.58:684][423]LogBlueprint:Warning: Compiler 警告 [0011.77] Compile of CharacterBP successful, but with 10 Warning(s) [in 1 ms] (/Game/MyCharacter/Blueprints/CharacterBP.CharacterBP)
+[2016.10.08-07.53.00:847][423]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.53.01:037][423]Cmd: MAP LOAD FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.08-07.53.01:037][423]LightingResults: New page: 光照构建
+[2016.10.08-07.53.01:038][423]LoadErrors: New page: 正在加载地图： Minimal_Default.umap
+[2016.10.08-07.53.01:038][423]MapCheck: New page: 地图检测
+[2016.10.08-07.53.01:038][423]LightingResults: New page: 光照构建
+[2016.10.08-07.53.01:279][423]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.08-07.53.01:368][423]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.08-07.53.01:414][423]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时46.25毫秒完成。
+[2016.10.08-07.53.01:415][423]LogFileHelpers: Loading map 'Minimal_Default' took 0.404
+[2016.10.08-07.53.01:588][424]Cmd: UpdateLandscapeEditorData -warnings
+[2016.10.08-07.53.01:588][424]Cmd: UpdateLandscapeEditorData
+[2016.10.08-07.53.28:681][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.53.28:681][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.53.28:714][429]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:53:28)
+[2016.10.08-07.53.28:727][429]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.53.28:756][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028753s)
+[2016.10.08-07.53.28:757][429]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.53.28:757][429]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2016.10.08-07.53.28:789][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.061478s)
+[2016.10.08-07.53.28:814][429]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.53.28:832][429]LogInit: FAudioDevice initialized.
+[2016.10.08-07.53.28:955][429]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.53.29:077][429]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.53.29
+[2016.10.08-07.53.29:201][429]LogWorld: Bringing up level for play took: 0.135367
+[2016.10.08-07.53.29:313][429]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.08-07.53.29:449][429]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间0.811
+[2016.10.08-07.53.29:449][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.53.43:963][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.53.44:101][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.01:629][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.01:629][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.54.01:629][657]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:54:01)
+[2016.10.08-07.54.01:629][657]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.54.01:638][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008956s)
+[2016.10.08-07.54.01:639][657]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.54.01:639][657]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2016.10.08-07.54.01:639][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.010020s)
+[2016.10.08-07.54.01:650][657]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.54.01:661][657]LogInit: FAudioDevice initialized.
+[2016.10.08-07.54.01:713][657]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.54.01:717][657]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.54.01
+[2016.10.08-07.54.01:718][657]LogWorld: Bringing up level for play took: 0.004143
+[2016.10.08-07.54.01:723][657]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间1.086
+[2016.10.08-07.54.01:724][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.13:193][416]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.13:232][416]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.17:944][673]MapCheck: New page: 地图检测
+[2016.10.08-07.54.18:139][673]Cmd: MAP REBUILD ALLVISIBLE
+[2016.10.08-07.54.18:140][673]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.10.08-07.54.18:559][673]LightingResults: New page: 光照构建-  2016年10月8日 下午11:54:18
+[2016.10.08-07.54.18:922][673]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.10.08-07.54.19:099][673]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.10.08-07.54.19:381][673]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.10.08-07.54.20:974][673]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.10.08-07.54.20:974][673]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18012
+[2016.10.08-07.54.31:628][673]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.10.08-07.54.31:630][673]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.10.08-07.54.31:630][673]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.10.08-07.54.31:630][673]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.10.08-07.54.31:630][673]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.10.08-07.54.31:630][673]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.10.08-07.54.32:955][673]LogEditorBuildUtils: Build time 0:14
+[2016.10.08-07.54.33:089][674]Cmd: UpdateLandscapeEditorData
+[2016.10.08-07.54.38:244][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.38:244][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.54.38:245][679]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:54:38)
+[2016.10.08-07.54.38:245][679]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.54.38:253][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007951s)
+[2016.10.08-07.54.38:253][679]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.54.38:253][679]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2016.10.08-07.54.38:254][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.008973s)
+[2016.10.08-07.54.38:264][679]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.54.38:277][679]LogInit: FAudioDevice initialized.
+[2016.10.08-07.54.38:330][679]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.54.38:335][679]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.54.38
+[2016.10.08-07.54.38:336][679]LogWorld: Bringing up level for play took: 0.004634
+[2016.10.08-07.54.38:389][679]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间-0.249
+[2016.10.08-07.54.38:389][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.40:406][804]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.40:444][804]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.41:337][856]Job is a success!
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: HQ_Lightmap0_1 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: SkyOcclusion0_1 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: LQ_Lightmap_0_1 (DXT1)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: SkyOcclusion0_2 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: LQ_Lightmap_1_2 (DXT1)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: HQ_Lightmap1_2 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: SkyOcclusion0_3 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: HQ_Lightmap0_3 (AutoDXT)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: LQ_Lightmap_0_3 (DXT1)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: ShadowMapTexture2D_0 (G8)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: ShadowMapTexture2D_1 (G8)
+[2016.10.08-07.54.41:629][857]LogTexture:Display: 正在构建贴图: ShadowMapTexture2D_3 (G8)
+[2016.10.08-07.54.41:821][857]Lightmass on SOCO: 3.06 sec total, 336 ms importing, 25 ms setup, 477 ms photons, 2.09 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 8.35 sec total, 2.68 sec processing.
+[2016.10.08-07.54.41:879][857]LogStaticLightingSystem: Illumination: 23.2 sec (84 ms encoding lightmaps, 39 ms encoding shadowmaps)
+[2016.10.08-07.54.41:879][857]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.1 MB streaming, 0.2 MB non-streaming), 6 textures
+[2016.10.08-07.54.41:879][857]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2016.10.08-07.54.42:606][858]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.10.08-07.54.42:606][858]MapCheck: New page: Minimal_Default - 2016年10月8日 下午11:54:42
+[2016.10.08-07.54.42:744][858]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时138.364毫秒完成。
+[2016.10.08-07.54.44:141][945]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.44:141][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.54.44:141][945]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:54:44)
+[2016.10.08-07.54.44:141][945]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.54.44:152][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010893s)
+[2016.10.08-07.54.44:153][945]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.54.44:153][945]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2016.10.08-07.54.44:153][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.011802s)
+[2016.10.08-07.54.44:164][945]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.54.44:176][945]LogInit: FAudioDevice initialized.
+[2016.10.08-07.54.44:233][945]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.54.44:237][945]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.54.44
+[2016.10.08-07.54.44:238][945]LogWorld: Bringing up level for play took: 0.004580
+[2016.10.08-07.54.44:244][945]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间-0.394
+[2016.10.08-07.54.44:244][945]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.57:790][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.57:833][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.58:726][881]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.54.58:726][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.54.58:726][881]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:54:58)
+[2016.10.08-07.54.58:726][881]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.54.58:737][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010492s)
+[2016.10.08-07.54.58:737][881]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.54.58:737][881]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2016.10.08-07.54.58:738][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.011347s)
+[2016.10.08-07.54.58:748][881]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.54.58:759][881]LogInit: FAudioDevice initialized.
+[2016.10.08-07.54.58:809][881]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.54.58:813][881]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.54.58
+[2016.10.08-07.54.58:815][881]LogWorld: Bringing up level for play took: 0.003923
+[2016.10.08-07.54.58:819][881]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间0.181
+[2016.10.08-07.54.58:819][881]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.06:471][392]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.06:512][392]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.18:221][ 97]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.18:221][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-07.55.18:221][ 97]PIE: New page: PIE会话: Minimal_Default (2016年10月8日 下午11:55:18)
+[2016.10.08-07.55.18:221][ 97]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-07.55.18:233][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011160s)
+[2016.10.08-07.55.18:234][ 97]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-07.55.18:234][ 97]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2016.10.08-07.55.18:234][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.012536s)
+[2016.10.08-07.55.18:245][ 97]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-07.55.18:256][ 97]LogInit: FAudioDevice initialized.
+[2016.10.08-07.55.18:305][ 97]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-07.55.18:310][ 97]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-15.55.18
+[2016.10.08-07.55.18:311][ 97]LogWorld: Bringing up level for play took: 0.004318
+[2016.10.08-07.55.18:316][ 97]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间-0.322
+[2016.10.08-07.55.18:316][ 97]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.18:910][135]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.18:950][135]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-07.55.49:706][143]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.55.50:181][143]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.55.50:200][143]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.55.50:243][143]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.08-07.55.57:725][591]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.08-07.55.57:725][591]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2016.10.08-07.55.57:725][591]MaterialEditorStats: 信息 Texture samplers: 1/16
+[2016.10.08-07.57.03:051][496]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.57.03:067][496]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.57.03:068][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.10.08-07.57.03:085][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.10.08-07.57.03:126][496]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.57.03:143][496]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.57.03:169][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.10.08-07.57.09:410][870]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.08-07.57.09:410][870]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2016.10.08-07.57.09:410][870]MaterialEditorStats: 信息 Texture samplers: 1/16
+[2016.10.08-07.57.13:908][139]LogMaterialEditor: Saving and Compiling material Material_Man_Body_0
+[2016.10.08-07.57.14:370][139]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.57.14:396][139]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.57.14:424][139]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.57.14:511][139]LogMaterial: Missing cached shader map for material Material_Man_Body_0, compiling. 
+[2016.10.08-07.57.14:553][139]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.57.28:415][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Material_Man_Body_0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0.uasset" SILENT=true
+[2016.10.08-07.57.28:436][139]LogSavePackage: Save=13.51ms
+[2016.10.08-07.57.28:436][139]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Material_Man_Body_0EC25013847B220054F8345A9F6534CB7.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0.uasset'
+[2016.10.08-07.57.28:493][139]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0.uasset
+[2016.10.08-07.57.28:498][139]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 59 instructions
+[2016.10.08-07.57.28:498][139]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2016.10.08-07.57.28:498][139]MaterialEditorStats: 信息 Texture samplers: 4/16
+[2016.10.08-07.57.33:358][449]LogRenderer: Reallocating scene render targets to support 1392x1044 (Frame:22655).
+[2016.10.08-07.58.00:570][ 91]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.10.08-07.58.00:667][ 91]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.10.08-07.58.00:684][ 91]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-07.58.00:711][ 91]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.10.08-07.58.12:389][729]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 23 instructions
+[2016.10.08-07.58.12:389][729]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2016.10.08-07.58.12:389][729]MaterialEditorStats: 信息 Texture samplers: 1/16
+[2016.10.08-07.59.03:773][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/SurFace.uasset" SILENT=true
+[2016.10.08-07.59.03:790][116]LogSavePackage: Save=13.20ms
+[2016.10.08-07.59.03:790][116]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/SurFace6C5CD8634D488733E06382B663832AA6.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/SurFace.uasset'
+[2016.10.08-07.59.03:796][116]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/SurFace.uasset
+[2016.10.08-07.59.03:968][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset" SILENT=true
+[2016.10.08-07.59.03:989][116]LogSavePackage: Save=14.30ms
+[2016.10.08-07.59.03:989][116]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/ManEAACD37442919B2789953A97882EB74D.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset'
+[2016.10.08-07.59.04:002][116]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset
+[2016.10.08-07.59.04:016][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Body/Man_Body_0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_0.uasset" SILENT=true
+[2016.10.08-07.59.04:036][116]LogSavePackage: Save=12.30ms
+[2016.10.08-07.59.04:036][116]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_077E100BD416F524B975578A1A6953964.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_0.uasset'
+[2016.10.08-07.59.04:040][116]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_0.uasset
+[2016.10.08-07.59.04:055][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Body/Man_Body_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset" SILENT=true
+[2016.10.08-07.59.04:090][116]LogSavePackage: Save=27.33ms
+[2016.10.08-07.59.04:090][116]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_1688651E84CF4D096FD3BC3AE1850B49E.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset'
+[2016.10.08-07.59.04:094][116]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset
+[2016.10.08-07.59.49:324][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_0_Inst" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_Inst.uasset" SILENT=true
+[2016.10.08-07.59.49:340][960]LogSavePackage: Save=12.25ms
+[2016.10.08-07.59.49:340][960]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_0_Inst630772A74030DEEDB9A696BD9756C6E6.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_Inst.uasset'
+[2016.10.08-07.59.49:363][960]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_Inst.uasset
+[2016.10.08-07.59.59:873][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace.uasset" SILENT=true
+[2016.10.08-07.59.59:889][604]LogSavePackage: Save=12.55ms
+[2016.10.08-07.59.59:889][604]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_0_SurFace50B5928C454F035E8491B89C883C940F.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace.uasset'
+[2016.10.08-07.59.59:896][604]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace.uasset
+[2016.10.08-08.00.25:327][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants0_SurFace.uasset" SILENT=true
+[2016.10.08-08.00.25:342][216]LogSavePackage: Save=12.54ms
+[2016.10.08-08.00.25:342][216]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants0_SurFace5C629325410D169B5664AC9CDF52BCBD.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants0_SurFace.uasset'
+[2016.10.08-08.00.25:349][216]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants0_SurFace.uasset
+[2016.10.08-08.00.38:053][ 69]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.08-08.00.38:053][ 69]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.08-08.00.39:670][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset" SILENT=true
+[2016.10.08-08.00.39:685][171]LogSavePackage: Save=12.40ms
+[2016.10.08-08.00.39:685][171]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_0_SurFaceE1DDD2FB4C930ECCBA915C909DC925F6.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset'
+[2016.10.08-08.00.39:692][171]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset
+[2016.10.08-08.00.56:634][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset" SILENT=true
+[2016.10.08-08.00.56:653][249]LogSavePackage: Save=12.43ms
+[2016.10.08-08.00.56:653][249]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_0_SurFace6004A2A74BE9B826A845B3AA246A7F32.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset'
+[2016.10.08-08.00.56:661][249]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace.uasset
+[2016.10.08-08.01.24:542][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Cloth" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset" SILENT=true
+[2016.10.08-08.01.24:558][112]LogSavePackage: Save=12.51ms
+[2016.10.08-08.01.24:558][112]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth43E4462B46EF7BAEA3AB568C52630987.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset'
+[2016.10.08-08.01.24:566][112]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset
+[2016.10.08-08.01.24:663][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Body/Man_Body_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset" SILENT=true
+[2016.10.08-08.01.24:689][112]LogSavePackage: Save=20.90ms
+[2016.10.08-08.01.24:689][112]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_13D552EAF404C43F5A41E21868D204008.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset'
+[2016.10.08-08.01.24:693][112]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset
+[2016.10.08-08.01.59:322][364]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Face_0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset" SILENT=true
+[2016.10.08-08.01.59:338][364]LogSavePackage: Save=12.16ms
+[2016.10.08-08.01.59:338][364]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Face_0_SurFaceDCEBBBA54306EE4665E0CCA01694DB3D.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset'
+[2016.10.08-08.01.59:344][364]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset
+[2016.10.08-08.02.07:872][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Face_0_SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset" SILENT=true
+[2016.10.08-08.02.07:891][886]LogSavePackage: Save=11.82ms
+[2016.10.08-08.02.07:891][886]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Face_0_SurFaceAAD8EB6542E8865D621B2598A9D63178.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset'
+[2016.10.08-08.02.07:899][886]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0_SurFace.uasset
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(0) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(2) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(3) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(4) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(5) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(7) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(9) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(10) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(11) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(28) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(29) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(30) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(46) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(47) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(48) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(50) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(51) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(52) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(0) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(2) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(3) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(4) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(5) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(7) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(9) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(10) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(11) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(28) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(29) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(30) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(46) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(47) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(48) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(50) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(51) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.02.55:488][290]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(52) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(0) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(2) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(3) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(4) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(5) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(7) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(9) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(10) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(11) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(28) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(29) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(30) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(46) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:919][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(47) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(48) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(50) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(51) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(52) out of range of MasterPoseComponent->SpaceBases for Pants
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(0) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(2) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(3) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(4) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(5) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(7) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(9) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(10) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(11) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(28) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(29) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(30) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(46) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(47) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(48) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(50) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(51) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.11:920][211]LogSkinnedMeshComp:Warning: GetBoneTransform : ParentBoneIndex(52) out of range of MasterPoseComponent->SpaceBases for Body
+[2016.10.08-08.03.17:300][568]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.17:495][568]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.17:513][568]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.17:538][568]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.10.08-08.03.20:221][693]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.20:241][693]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.23:740][892]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.23:768][892]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.23:787][892]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.28:684][169]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.28:705][169]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.28:706][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2016.10.08-08.03.28:717][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2016.10.08-08.03.28:750][169]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.28:771][169]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.28:800][169]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2016.10.08-08.03.30:804][283]LogMaterialEditor: Saving and Compiling material Cloth
+[2016.10.08-08.03.31:256][283]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.31:288][283]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.31:333][283]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.31:396][283]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.03.31:458][283]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.03.50:778][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Cloth" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset" SILENT=true
+[2016.10.08-08.03.50:799][283]LogSavePackage: Save=14.63ms
+[2016.10.08-08.03.50:800][283]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth3EB47C624C281919E7E8D79A52E9925F.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset'
+[2016.10.08-08.03.50:808][283]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset
+[2016.10.08-08.03.50:816][283]MaterialEditorStats: 信息 Base pass shader with only dynamic lighting: 63 instructions
+[2016.10.08-08.03.50:816][283]MaterialEditorStats: 信息 Vertex shader: 41 instructions
+[2016.10.08-08.03.50:816][283]MaterialEditorStats: 信息 Texture samplers: 4/16
+[2016.10.08-08.04.04:088][869]LogSavePackage: Save=134.66ms
+[2016.10.08-08.04.04:088][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Minimal_Default_Auto1EDE4288E44645408574BB8837022AA31.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Minimal_Default_Auto1.umap'
+[2016.10.08-08.04.04:091][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Minimal_Default_Auto1.umap
+[2016.10.08-08.04.04:110][869]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyCharacter/Minimal_Default' took 0.178
+[2016.10.08-08.04.04:110][869]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.178
+[2016.10.08-08.04.04:119][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Man] ([1] browsable assets)...
+[2016.10.08-08.04.04:131][869]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MyCharacter/Man.Man]
+[2016.10.08-08.04.04:131][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Man]
+[2016.10.08-08.04.04:131][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man" FILE="../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.08-08.04.04:153][869]LogSavePackage: Save=14.06ms
+[2016.10.08-08.04.04:153][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Auto1C1D7CD774ABFF2273B548885B4688E54.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Auto1.uasset'
+[2016.10.08-08.04.04:156][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Auto1.uasset
+[2016.10.08-08.04.04:164][869]LogSavePackage: Save=2.12ms
+[2016.10.08-08.04.04:164][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_0_SurFace_2_Auto100778EDD457B999A4962E88BB80789A0.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Body_0_SurFace_2_Auto1.uasset'
+[2016.10.08-08.04.04:167][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Body_0_SurFace_2_Auto1.uasset
+[2016.10.08-08.04.04:175][869]LogSavePackage: Save=2.24ms
+[2016.10.08-08.04.04:175][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_0_SurFace_2_Auto1A65155C0402B3AD0BA12A790488371B1.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Pants_0_SurFace_2_Auto1.uasset'
+[2016.10.08-08.04.04:178][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Pants_0_SurFace_2_Auto1.uasset
+[2016.10.08-08.04.04:180][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Man_Pants/Man_Pants1] ([1] browsable assets)...
+[2016.10.08-08.04.04:192][869]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MyCharacter/Man_Pants/Man_Pants1.Man_Pants1]
+[2016.10.08-08.04.04:192][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Man_Pants/Man_Pants1]
+[2016.10.08-08.04.04:211][869]LogSavePackage: Save=11.27ms
+[2016.10.08-08.04.04:211][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants1_Auto1DB8AC357475BA55AFD87488D52DC0F35.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Pants/Man_Pants1_Auto1.uasset'
+[2016.10.08-08.04.04:214][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Pants/Man_Pants1_Auto1.uasset
+[2016.10.08-08.04.04:217][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Materials/Cloth_Inst] ([1] browsable assets)...
+[2016.10.08-08.04.04:229][869]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MyCharacter/Materials/Cloth_Inst.Cloth_Inst]
+[2016.10.08-08.04.04:229][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Materials/Cloth_Inst]
+[2016.10.08-08.04.04:244][869]LogSavePackage: Save=12.03ms
+[2016.10.08-08.04.04:244][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth_Inst_Auto19BEA8C624C523DB4B5F477BB71C026CC.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Inst_Auto1.uasset'
+[2016.10.08-08.04.04:248][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Inst_Auto1.uasset
+[2016.10.08-08.04.04:250][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Man_Face/Man_Face0] ([1] browsable assets)...
+[2016.10.08-08.04.04:262][869]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MyCharacter/Man_Face/Man_Face0.Man_Face0]
+[2016.10.08-08.04.04:262][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Man_Face/Man_Face0]
+[2016.10.08-08.04.04:262][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Face/Man_Face0" FILE="../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Face/Man_Face0_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.10.08-08.04.04:280][869]LogSavePackage: Save=9.91ms
+[2016.10.08-08.04.04:280][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Face0_Auto19C85259C4F02BA900539859109D58D3C.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Face/Man_Face0_Auto1.uasset'
+[2016.10.08-08.04.04:284][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Man_Face/Man_Face0_Auto1.uasset
+[2016.10.08-08.04.04:291][869]LogSavePackage: Save=2.10ms
+[2016.10.08-08.04.04:291][869]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Material_Man_Body_0_Inst_Auto1EE1D2336464FF01DA70B20B6EE729698.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Material_Man_Body_0_Inst_Auto1.uasset'
+[2016.10.08-08.04.04:294][869]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Material_Man_Body_0_Inst_Auto1.uasset
+[2016.10.08-08.04.04:294][869]LogFileHelpers: Auto-saving content packages took 0.179
+[2016.10.08-08.04.44:951][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_1.uasset" SILENT=true
+[2016.10.08-08.04.44:965][426]LogSavePackage: Save=11.26ms
+[2016.10.08-08.04.44:965][426]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_1B33140014D8DD841015A67AC20FE4382.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_1.uasset'
+[2016.10.08-08.04.44:972][426]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_1.uasset
+[2016.10.08-08.05.01:999][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0.uasset" SILENT=true
+[2016.10.08-08.05.02:014][475]LogSavePackage: Save=12.49ms
+[2016.10.08-08.05.02:014][475]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_082C6CF2744173295C66FB8AA54BA6BF4.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0.uasset'
+[2016.10.08-08.05.02:022][475]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0.uasset
+[2016.10.08-08.05.07:304][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Face_0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0.uasset" SILENT=true
+[2016.10.08-08.05.07:319][796]LogSavePackage: Save=11.70ms
+[2016.10.08-08.05.07:319][796]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Face_041281C5042ED3265EE7398BDDFC415DF.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0.uasset'
+[2016.10.08-08.05.07:326][796]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Face_0.uasset
+[2016.10.08-08.05.13:509][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0.uasset" SILENT=true
+[2016.10.08-08.05.13:524][168]LogSavePackage: Save=11.95ms
+[2016.10.08-08.05.13:524][168]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_060E2264043A0BFAFBF339C9481CF17F5.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0.uasset'
+[2016.10.08-08.05.13:531][168]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0.uasset
+[2016.10.08-08.05.29:189][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset" SILENT=true
+[2016.10.08-08.05.29:204][164]LogSavePackage: Save=11.79ms
+[2016.10.08-08.05.29:204][164]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_104575D4440A11828AF780B8EEA75B2DC.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset'
+[2016.10.08-08.05.29:219][164]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset
+[2016.10.08-08.05.37:196][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset" SILENT=true
+[2016.10.08-08.05.37:215][658]LogSavePackage: Save=11.76ms
+[2016.10.08-08.05.37:215][658]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_1572C48834E10180231305A863A3CECE1.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset'
+[2016.10.08-08.05.37:223][658]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_1.uasset
+[2016.10.08-08.06.02:192][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Body/Man_Body_1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset" SILENT=true
+[2016.10.08-08.06.02:226][840]LogSavePackage: Save=26.65ms
+[2016.10.08-08.06.02:226][840]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_1D77258094CB1BD31C2C8ECBDD4DD9FFD.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset'
+[2016.10.08-08.06.02:234][840]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Body/Man_Body_1.uasset
+[2016.10.08-08.06.09:142][237]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2016.10.08-08.06.13:625][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Face/Man_Face0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Face/Man_Face0.uasset" SILENT=true
+[2016.10.08-08.06.13:641][403]LogSavePackage: Save=10.64ms
+[2016.10.08-08.06.13:641][403]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Face0EAB9240D41BF7E914479BCB3E870634B.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Face/Man_Face0.uasset'
+[2016.10.08-08.06.13:648][403]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Face/Man_Face0.uasset
+[2016.10.08-08.06.19:459][794]LogLinker:Warning: 无法寻找到文件'/Game/MyCharacter/Materials/Material_Man_Pants_0'
+[2016.10.08-08.06.19:459][794]LogLinker:Warning: 无法在加载../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants0.uasset时寻找到资源'/Game/MyCharacter/Materials/Material_Man_Pants_0'的文件。
+[2016.10.08-08.06.19:459][794]LoadErrors:Error: 错误 /Game/MyCharacter/Man_Pants/Man_Pants0 : 无法寻找到资源的文件。 /Game/MyCharacter/Materials/Material_Man_Pants_0
+[2016.10.08-08.06.19:461][794]LogLinker:Warning: 无法寻找到文件'/Game/MyCharacter/Materials/Material_Man_Pants_0'
+[2016.10.08-08.06.19:461][794]LogLinker:Warning: 无法在加载../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants0.uasset时寻找到资源'/Game/MyCharacter/Materials/Material_Man_Pants_0'的文件。
+[2016.10.08-08.06.19:468][794]LogLinker:Warning: 无法寻找到文件'/Game/MyCharacter/Materials/Material_Man_Pants_0'
+[2016.10.08-08.06.19:468][794]LoadErrors: 信息 加载失败 /Game/MyCharacter/Materials/Material_Man_Pants_0.Material_Man_Pants_0 引用者 Man_Pants0
+[2016.10.08-08.06.19:468][794]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/MyCharacter/Materials/Material_Man_Pants_0'的文件。
+[2016.10.08-08.06.19:617][794]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2016.10.08-08.06.23:601][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Pants/Man_Pants0" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants0.uasset" SILENT=true
+[2016.10.08-08.06.23:620][952]LogSavePackage: Save=11.30ms
+[2016.10.08-08.06.23:620][952]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants0E8B248304064A43DACA888A0E375110F.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants0.uasset'
+[2016.10.08-08.06.23:777][952]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants0.uasset
+[2016.10.08-08.06.28:760][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man_Pants/Man_Pants1" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants1.uasset" SILENT=true
+[2016.10.08-08.06.28:776][176]LogSavePackage: Save=10.93ms
+[2016.10.08-08.06.28:776][176]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants1F4A202A243CABDA21C1E5A8019AEA87A.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants1.uasset'
+[2016.10.08-08.06.28:791][176]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man_Pants/Man_Pants1.uasset
+[2016.10.08-08.06.39:242][864]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.39:469][864]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.39:485][864]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.06.39:511][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2016.10.08-08.06.44:537][144]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.44:558][144]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.44:575][144]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.06.49:631][333]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.49:660][333]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.06.49:687][333]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.49:735][333]LogMaterial: Missing cached shader map for material SurFace, compiling. 
+[2016.10.08-08.06.49:773][333]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.06.53:354][555]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.06.53:446][555]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.06.53:465][555]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.06.53:493][555]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2016.10.08-08.06.57:407][771]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.06.57:433][771]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.06.57:454][771]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.07.00:306][843]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.07.00:340][843]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.07.00:380][843]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.07.00:438][843]LogMaterial: Missing cached shader map for material Cloth, compiling. 
+[2016.10.08-08.07.00:488][843]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.08-08.08.04:236][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-08.08.04:236][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.08-08.08.04:236][522]PIE: New page: PIE会话: Minimal_Default (2016年10月9日 上午12:08:04)
+[2016.10.08-08.08.04:236][522]LogPlayLevel: Creating play world package: /Game/MyCharacter/UEDPIE_0_Minimal_Default
+[2016.10.08-08.08.04:247][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010588s)
+[2016.10.08-08.08.04:248][522]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.10.08-08.08.04:248][522]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2016.10.08-08.08.04:248][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MyCharacter/Minimal_Default.Minimal_Default to /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default (0.011633s)
+[2016.10.08-08.08.04:269][522]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.08-08.08.04:280][522]LogInit: FAudioDevice initialized.
+[2016.10.08-08.08.04:332][522]LogWorld: Game class is 'MyGameMode_C'
+[2016.10.08-08.08.04:336][522]LogWorld: Bringing World /Game/MyCharacter/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.10.08-16.08.04
+[2016.10.08-08.08.04:338][522]LogWorld: Bringing up level for play took: 0.005070
+[2016.10.08-08.08.04:343][522]PIE: 信息 /Game/MyCharacter/UEDPIE_0_Minimal_Default的‘在编辑器中播放’的起始时间-0.295
+[2016.10.08-08.08.04:343][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-08.08.20:580][484]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-08.08.20:622][484]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/MyCharacter/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/MyCharacter/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.10.08-08.14.21:356][608]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MyCharacter/Minimal_Default' took 0.009
+[2016.10.08-08.14.21:369][608]LogSavePackage: Save=2.62ms
+[2016.10.08-08.14.21:369][608]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth_Inst_Auto2A591044C4172C6993008469D73DB28E1.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Inst_Auto2.uasset'
+[2016.10.08-08.14.21:373][608]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Inst_Auto2.uasset
+[2016.10.08-08.14.21:376][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Materials/SurFace] ([1] browsable assets)...
+[2016.10.08-08.14.21:388][608]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyCharacter/Materials/SurFace.SurFace]
+[2016.10.08-08.14.21:388][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Materials/SurFace]
+[2016.10.08-08.14.21:388][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/SurFace_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.10.08-08.14.21:425][608]LogSavePackage: Save=13.28ms
+[2016.10.08-08.14.21:425][608]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/SurFace_Auto22019F01D4B88391AE943F4BEF11B659E.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/SurFace_Auto2.uasset'
+[2016.10.08-08.14.21:429][608]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/SurFace_Auto2.uasset
+[2016.10.08-08.14.21:431][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MyCharacter/Materials/Cloth] ([1] browsable assets)...
+[2016.10.08-08.14.21:443][608]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MyCharacter/Materials/Cloth.Cloth]
+[2016.10.08-08.14.21:443][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/MyCharacter/Materials/Cloth]
+[2016.10.08-08.14.21:443][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Cloth" FILE="../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.10.08-08.14.21:465][608]LogSavePackage: Save=13.08ms
+[2016.10.08-08.14.21:465][608]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth_Auto2C2D6BA274962677690273AA6A56DE8F9.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Auto2.uasset'
+[2016.10.08-08.14.21:469][608]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Cloth_Auto2.uasset
+[2016.10.08-08.14.21:478][608]LogSavePackage: Save=2.16ms
+[2016.10.08-08.14.21:478][608]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_2_Auto210F76A394FD89CA80B5697AEB5E99D8C.tmp' to '../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Body_2_Auto2.uasset'
+[2016.10.08-08.14.21:482][608]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Saved/Autosaves/Game/MyCharacter/Materials/Man_Body_2_Auto2.uasset
+[2016.10.08-08.14.21:482][608]LogFileHelpers: Auto-saving content packages took 0.124
+[2016.10.08-08.18.08:689][291]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.08-08.18.08:709][291]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2016.10.08-08.18.18:468][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Man" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset" SILENT=true
+[2016.10.08-08.18.18:483][685]LogSavePackage: Save=7.18ms
+[2016.10.08-08.18.18:483][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man245A76E34B30864FAF5242B8691CB2F9.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset'
+[2016.10.08-08.18.18:490][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Man.uasset
+[2016.10.08-08.18.18:493][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Cloth" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset" SILENT=true
+[2016.10.08-08.18.18:502][685]LogSavePackage: Save=3.47ms
+[2016.10.08-08.18.18:502][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth7FA01AED45026AA4C7F502980F5C56C3.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset'
+[2016.10.08-08.18.18:509][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth.uasset
+[2016.10.08-08.18.18:512][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Cloth_Inst" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth_Inst.uasset" SILENT=true
+[2016.10.08-08.18.18:518][685]LogSavePackage: Save=2.23ms
+[2016.10.08-08.18.18:518][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Cloth_Inst4465DD094728A4CD3B2A2DB90E68E31B.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth_Inst.uasset'
+[2016.10.08-08.18.18:525][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Cloth_Inst.uasset
+[2016.10.08-08.18.18:528][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_0_SurFace_2" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace_2.uasset" SILENT=true
+[2016.10.08-08.18.18:534][685]LogSavePackage: Save=2.56ms
+[2016.10.08-08.18.18:534][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_0_SurFace_20DF66945495A88CFF432B787F3496776.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace_2.uasset'
+[2016.10.08-08.18.18:541][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_0_SurFace_2.uasset
+[2016.10.08-08.18.18:544][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Body_2" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_2.uasset" SILENT=true
+[2016.10.08-08.18.18:549][685]LogSavePackage: Save=2.43ms
+[2016.10.08-08.18.18:549][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Body_24D5F29344CDB8AEFC5531A823E40EFFF.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_2.uasset'
+[2016.10.08-08.18.18:557][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Body_2.uasset
+[2016.10.08-08.18.18:559][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Man_Pants_0_SurFace_2" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace_2.uasset" SILENT=true
+[2016.10.08-08.18.18:564][685]LogSavePackage: Save=2.16ms
+[2016.10.08-08.18.18:564][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Man_Pants_0_SurFace_2AF09B3CB4F83463BCE05478B6C7CEF15.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace_2.uasset'
+[2016.10.08-08.18.18:571][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Man_Pants_0_SurFace_2.uasset
+[2016.10.08-08.18.18:574][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/Material_Man_Body_0_Inst" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0_Inst.uasset" SILENT=true
+[2016.10.08-08.18.18:580][685]LogSavePackage: Save=2.22ms
+[2016.10.08-08.18.18:580][685]LogSavePackage: Moving '../../../../JiangHuGit/JiangHuPro/Saved/Material_Man_Body_0_Inst86794C4E422FECB403C0A8AFFAD64C8E.tmp' to '../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0_Inst.uasset'
+[2016.10.08-08.18.18:588][685]LogSavePackage:Display: Finished SavePackage ../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/Material_Man_Body_0_Inst.uasset
+[2016.10.08-08.18.18:591][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyCharacter/Materials/SurFace" FILE="../../../../JiangHuGit/JiangHuPro/Content/MyCharacter/Materials/SurFace.uasset" SILENT=true
+[2016.10.08-08.18.18:600][685]LogSavePackage: Save=3.60ms
+[2016.10.08-08.18.18:600][685]LogSavePackage: Moving '../../../../Jian
